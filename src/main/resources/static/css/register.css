@@ -1,0 +1,134 @@
+/* Full background */
+.register-bg {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple → Blue */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Wrapper */
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Card */
+.register-card {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 38px;
+  width: 380px;
+  border-radius: 16px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* Title */
+.reg-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.reg-subtitle {
+  color: #e6e6e6;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+/* Inputs */
+.form-group {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 11px 13px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* Register button */
+.btn-register {
+  width: 100%;
+  padding: 12px;
+  background: #ffffff;
+  color: #6a11cb;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-register:hover {
+  background: #f2f2f2;
+  transform: translateY(-2px);
+}
+
+/* Login text */
+.login-text {
+  margin-top: 18px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #ffd700;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.password-wrapper {
+            position: relative;
+        }
+
+        .eye-icon {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .msg-error {
+            color: red;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .msg-success {
+            color: green;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }

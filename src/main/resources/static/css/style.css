@@ -1,0 +1,146 @@
+/* ✅ Global */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #99ffeb, #c7fff3); /* Soft premium mint */
+  margin: 0;
+}
+
+/* ✅ Navbar */
+.custom-navbar {
+  background: linear-gradient(90deg, #99ffeb, #7be6d5) !important;
+  padding: 12px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.custom-navbar .navbar-brand {
+  color: #CF9B17 !important;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.custom-input {
+  background-color: #ffffff;
+  border: 2px solid white !important;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.custom-input:focus {
+  border-color: #b3b300 !important;
+  box-shadow: 0 0 8px rgba(179,179,0,0.4);
+}
+
+/* ✅ Buttons */
+.btn-outline-light {
+  border-color: #b3b300 !important;
+  color: #b3b300 !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+  background-color: #b3b300 !important;
+  color: white !important;
+}
+
+.btn-light {
+  background-color: white !important;
+  color: black !important;
+  font-weight: 600;
+}
+
+/* ✅ Category Bar */
+.bg-light {
+  background: #ffffff !important;
+  border-bottom: 3px solid #b3b300;
+}
+
+.category-link {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.category-link:hover {
+  background-color: #b3b300;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ✅ Carousel */
+#carouselExample {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+
+#carouselExample .carousel-item img {
+  height: 420px;
+  object-fit: cover;
+}
+
+.custom-carousel-btn {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1 !important;
+}
+
+
+/* ✅ Product Cards */
+.product-card {
+  border-radius: 14px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: white;
+}
+
+.product-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  height: 220px;
+  object-fit: contain;
+  background: #f9f9f9;
+  padding: 12px;
+}
+
+/* ✅ Section Titles */
+h3 {
+  color: #1a3c34;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ✅ Footer */
+.custom-footer {
+  background: #ffffff !important;
+  border-top: 3px solid #b3b300;
+  color: #000 !important;
+  padding-top: 25px;
+}
+
+.footer-link {
+  color: #000 !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  color: #CF9B17 !important;
+  text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+body {
+            background: #f5f7fa;
+        }
+
+        .sidebar {
+            height: 100vh;
+            background: linear-gradient(180deg, #003b88, #007bff);
+            padding-top: 20px;
+            color: white;
+        }
+
+        .sidebar a {
+            color: white;
+            font-size: 17px;
+            padding: 12px 20px;
+            display: block;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+        }
+
+        .profile-pic {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 3px solid white;
+            object-fit: cover;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .card-custom {
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            background: white;
+        }
