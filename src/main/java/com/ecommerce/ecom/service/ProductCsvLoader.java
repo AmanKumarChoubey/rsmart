@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@Component
+//@Component
 public class ProductCsvLoader {
 
     @Autowired
